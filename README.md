@@ -51,7 +51,7 @@ Clone this repository and navigate to the project directory:
 
 ```bash
 git clone https://github.com/YesuBalla/Django-Share-App.git
-cd <project-directory>
+cd Django-Share-App
 ```
 
 Install the required packages:
