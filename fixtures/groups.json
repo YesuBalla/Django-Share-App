@@ -1,0 +1,14 @@
+[
+    {
+        "model": "auth.group",
+        "fields": {
+            "name": "Ops"
+        }
+    },
+    {
+        "model": "auth.group",
+        "fields": {
+            "name": "Client"
+        }
+    }
+]

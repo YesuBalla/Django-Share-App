@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django Migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Environment Variables
+.env
+*.env
