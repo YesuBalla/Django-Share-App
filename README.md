@@ -13,6 +13,10 @@ Operation Users have the following capabilities:
 
 *Note: Only Operation Users can upload files, and only files of the specified formats (pptx, docx, xlsx) are accepted.*
 
+#### Pre-created Operation User
+- **Username:** `OpsUser`
+- **Password:** `admin@123`
+
 ### 2. Client User
 Client Users have the following capabilities:
 
@@ -21,6 +25,10 @@ Client Users have the following capabilities:
 - Login
 - Download Files
 - List all Uploaded Files
+
+#### Pre-created Client User
+- **Username:** `ClientUser`
+- **Password:** `admin@123`
 
 ## Features
 
@@ -35,14 +43,14 @@ Ensure you have the following installed:
 
 - Python 3.8+
 - Django 4.x
-- SQLite (default) 
+- SQLite (default)
 
 ## Installation
 
 Clone this repository and navigate to the project directory:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/YesuBalla/Django-Share-App.git
 cd <project-directory>
 ```
 
@@ -83,6 +91,18 @@ Access the app at [http://localhost:8000](http://localhost:8000).
 1. Operation User logs in and uploads files (pptx, docx, xlsx).
 2. Client User signs up and receives an encrypted URL for email verification.
 3. Client User verifies their email, logs in, and can download files or list all uploaded files.
+
+## Pre-created Users
+
+To quickly test the app, use the following pre-created users:
+
+### Operation User
+- **Username:** `OpsUser`
+- **Password:** `admin@123`
+
+### Client User
+- **Username:** `ClientUser`
+- **Password:** `admin@123`
 
 ## Troubleshooting
 
